@@ -16,7 +16,7 @@ export default function Nav() {
                     <li><NavLink activeStyle={activeStyle} to='/battle' className='nav-link'>Battle</NavLink></li>
                     </ul>
                     <button style={{fontSize: 35}} className='btn-clear' onClick={toggleTheme}>
-                        {theme === 'light' ? '😦' : '💡'}
+                        {theme === 'light' ? '🔦' : '💡'}
                     </button>
                 </nav>
             )}
